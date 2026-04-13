@@ -12,10 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed29a130841189e40bf622e3d72ee6f6, type: 3}
   m_Name: TestEngine
   m_EditorClassIdentifier: 
-  gearName: 
-  type: 0
+  gearName: "\u6D4B\u8BD5\u5F15\u64CE"
+  type: 2
   icon: {fileID: 0}
   bonusAttackPower: 0
-  bonusSpeed: 0
+  bonusSpeed: 2.5
   bonusSize: 0
   bonusCritRate: 0
+  affixes:
+  - rid: 966772292399137003
+  references:
+    version: 2
+    RefIds:
+    - rid: 966772292399137003
+      type: {class: ElementAffix, ns: , asm: Assembly-CSharp}
+      data:
+        elementType: 0
+        triggerChance: 100
+        effectValue: 1

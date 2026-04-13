@@ -17,5 +17,9 @@ MonoBehaviour:
   icon: {fileID: 0}
   bonusAttackPower: 0
   bonusSpeed: 0
-  bonusSize: 0
+  bonusSize: 1
   bonusCritRate: 0
+  affixes: []
+  references:
+    version: 2
+    RefIds: []

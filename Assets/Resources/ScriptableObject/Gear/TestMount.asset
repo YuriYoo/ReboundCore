@@ -12,10 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed29a130841189e40bf622e3d72ee6f6, type: 3}
   m_Name: TestMount
   m_EditorClassIdentifier: 
-  gearName: 
-  type: 0
+  gearName: "\u6D4B\u8BD5\u6302\u8F7D"
+  type: 3
   icon: {fileID: 0}
   bonusAttackPower: 0
   bonusSpeed: 0
   bonusSize: 0
-  bonusCritRate: 0
+  bonusCritRate: 50
+  affixes: []
+  references:
+    version: 2
+    RefIds: []

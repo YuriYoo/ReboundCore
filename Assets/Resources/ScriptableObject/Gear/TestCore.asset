@@ -19,3 +19,13 @@ MonoBehaviour:
   bonusSpeed: 0
   bonusSize: 0
   bonusCritRate: 0
+  affixes:
+  - rid: 966772292399137002
+  references:
+    version: 2
+    RefIds:
+    - rid: 966772292399137002
+      type: {class: SplitAffix, ns: , asm: Assembly-CSharp}
+      data:
+        splitCount: 2
+        requiredHits: 2

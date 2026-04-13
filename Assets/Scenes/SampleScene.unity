@@ -1391,6 +1391,7 @@ MonoBehaviour:
   collisionMask:
     serializedVersion: 2
     m_Bits: 192
+  equippedGear: {fileID: 11400000, guid: 3fe731f2f81c65b45be43c152da7b53f, type: 2}
 --- !u!212 &2097217887
 SpriteRenderer:
   m_ObjectHideFlags: 0
