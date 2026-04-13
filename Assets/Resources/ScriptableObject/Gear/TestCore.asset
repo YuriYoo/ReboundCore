@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed29a130841189e40bf622e3d72ee6f6, type: 3}
+  m_Name: TestCore
+  m_EditorClassIdentifier: 
+  gearName: "\u6D4B\u8BD5\u6838\u5FC3"
+  type: 0
+  icon: {fileID: 0}
+  bonusAttackPower: 5
+  bonusSpeed: 0
+  bonusSize: 0
+  bonusCritRate: 0
