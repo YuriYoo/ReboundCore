@@ -15,7 +15,7 @@ MonoBehaviour:
   gearName: "\u6D4B\u8BD5\u6838\u5FC3"
   type: 0
   icon: {fileID: 0}
-  bonusAttackPower: 5
+  bonusAttackPower: 10
   bonusSpeed: 0
   bonusSize: 0
   bonusCritRate: 0
@@ -29,3 +29,4 @@ MonoBehaviour:
       data:
         splitCount: 2
         requiredHits: 2
+        speedMultiplier: 0.8
