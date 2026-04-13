@@ -28,5 +28,6 @@ MonoBehaviour:
       type: {class: ElementAffix, ns: , asm: Assembly-CSharp}
       data:
         elementType: 0
-        triggerChance: 100
+        triggerChance: 20
         effectValue: 1
+        duration: 3

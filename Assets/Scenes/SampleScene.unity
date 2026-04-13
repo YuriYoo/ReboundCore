@@ -119,6 +119,69 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &55034360
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 55034362}
+  - component: {fileID: 55034363}
+  - component: {fileID: 55034361}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &55034361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55034360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40e37c1d02b550049a0ed3fff6300ce5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  equippedSkill: {fileID: 11400000, guid: 17c377c669b4d8a4eb75d373f2ac5890, type: 2}
+  maxEnergy: 100
+  energyRegenRate: 10
+  currentEnergy: 0
+  globalSpeedMultiplier: 1
+--- !u!4 &55034362
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55034360}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &55034363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 55034360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97d2f7d7f7b92e74d87a68813a31afb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainCamera: {fileID: 0}
 --- !u!1 &431433531
 GameObject:
   m_ObjectHideFlags: 0
@@ -266,7 +329,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bacf2ae7a0564d42b4ad4f8b1855a89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 3
+  hp: 100
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -769,7 +832,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bacf2ae7a0564d42b4ad4f8b1855a89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 3
+  hp: 100
 --- !u!1 &1015342858
 GameObject:
   m_ObjectHideFlags: 0
@@ -917,7 +980,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2bacf2ae7a0564d42b4ad4f8b1855a89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 3
+  hp: 100
 --- !u!1 &1112721455
 GameObject:
   m_ObjectHideFlags: 0
@@ -1392,6 +1455,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 192
   equippedGear: {fileID: 11400000, guid: 3fe731f2f81c65b45be43c152da7b53f, type: 2}
+  totalHitCount: 0
+  isClone: 0
 --- !u!212 &2097217887
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1468,6 +1533,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
+  - {fileID: 55034362}
   - {fileID: 1112721456}
   - {fileID: 934030449}
   - {fileID: 1015342861}

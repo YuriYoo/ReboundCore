@@ -19,7 +19,7 @@ public class GearData : ScriptableObject
 
     [FoldoutGroup("基础属性加成")]
     [LabelText("攻击力加成")]
-    public int bonusAttackPower;
+    public float bonusAttackPower;
 
     [FoldoutGroup("基础属性加成")]
     [LabelText("弹射速度加成")]
