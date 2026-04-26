@@ -44,7 +44,9 @@ public class Block : MonoBehaviour
 
 				// 触发 0.03 秒的顿帧，让玩家看清方块碎裂的瞬间
 				JuiceManager.Instance.TriggerHitStop(0.1f);
-			}
+
+                JuiceManager.Instance.PlayExplosionVFX(transform.position, originalColor);
+            }
 
 			Destroy(gameObject);
 		}
